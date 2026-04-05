@@ -17,7 +17,7 @@ model = YOLO("yolo11n.pt")
 
 # Initialize pygame
 pygame.mixer.init()
-alert_sound = r"C:\\Users\\Naveen karthik\\OneDrive\\Desktop\\animal-detection-software\\alert.mp3"
+alert_sound = "alert.mp3"
 
 animal_classes = ["cat", "dog", "cow", "horse", "sheep", "elephant", "bear", "zebra", "giraffe", "bird"]
 
